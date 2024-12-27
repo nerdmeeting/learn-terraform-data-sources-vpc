@@ -51,3 +51,5 @@ data "aws_availability_zones" "available" {
     values = ["availability-zone"]
   }
 }
+
+data "aws_region" "current" { }
